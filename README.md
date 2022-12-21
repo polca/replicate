@@ -18,7 +18,13 @@ you can extract the databases in a `brightway2` project by doing the following:
 
     u = Unfold("url to the data package.zip")
     u.unfold()
+```
 
+You do not have to unfold all the scenario databases contained in the data package:
+
+```python
+    # unfold only the first and third scenario databases
+    u.unfold(scenarios=[0, 2])
 ```
 
 Available data packages
