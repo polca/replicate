@@ -7,7 +7,7 @@ to reproduce scenario-based or prospective life-cycle assessment databases local
 Once you have identified the data package of interest (see table below),
 you can extract the databases in a `brightway2` project by doing the following:
 
-.. code-block:: python
+```python
 
     from unfold import Unfold
     import bw2data
@@ -18,6 +18,8 @@ you can extract the databases in a `brightway2` project by doing the following:
 
     u = Unfold("url to the data package.zip")
     u.unfold()
+
+```
 
 Available data packages
 
