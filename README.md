@@ -4,7 +4,7 @@
 This repository lists data packages that can be used together with the library [unfold](https://github.com/polca/unfold) 
 to reproduce scenario-based or prospective life-cycle assessment databases locally.
 
-Once you have identified the data package of interest (see table below),
+Once you have identified and downloaded the data package of interest (see table below),
 you can extract the databases in a `brightway2` project by doing the following:
 
 ```python
@@ -16,7 +16,7 @@ you can extract the databases in a `brightway2` project by doing the following:
     # the source database (e.g., ecoinvent)
     bw2data.projects.set_current("some BW2 project")
 
-    u = Unfold("url to the data package.zip")
+    u = Unfold("filepath to the data package.zip")
     u.unfold()
 ```
 
