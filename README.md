@@ -2,7 +2,7 @@
 **RE**pository for **P**rospective **LI**fe **C**ycle **A**ssessment da**T**abas**E**s
 
 This repository lists data packages that can be used together with the library [unfold](https://github.com/polca/unfold) 
-to reproduce scenario-based or prospective life-cycle assessment databases locally.
+to reproduce scenario-based or prospective life-cycle assessment databases locally to be used with `brightway2`.
 
 Once you have identified and downloaded the data package of interest (see table below),
 you can extract the databases in a `brightway2` project by doing the following:
@@ -39,7 +39,7 @@ Available data packages
 * Url: url to the data package
 
 
-| Database generator | IAM model | SSP scenario | Climate scenario                                                                    | Years available | Sector      | Source database       | Url      |
-| ------------------ | --------- |--------------|-------------------------------------------------------------------------------------|-----------------|-------------| --------------------- |----------|
-| premise v.1.4.0    | IMAGE     | SSP2         | Base (RCP 6.0)<br/>RCP 2.6<br/>RCP 1.9                                              | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | [Link](https://doi.org/10.5281/zenodo.7470054) |
-| premise v.1.4.0    | REMIND    | SSP2         | Base (RCP 6.0)<br/>NDC<br/>NPi<br/>PkBudg1150 (~RCP 2.6)<br/>PkBudg500 (~RCP 1.9)   | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | Link     |
+| Database generator | IAM model | SSP scenario | Climate scenario                                                                  | Years available | Sector      | Source database       | Url      |
+| ------------------ | --------- |--------------|-----------------------------------------------------------------------------------|-----------------|-------------| --------------------- |----------|
+| premise v.1.4.0    | IMAGE     | SSP2         | Base (RCP 6.0)<br/>RCP 2.6<br/>RCP 1.9                                            | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | [Link](https://doi.org/10.5281/zenodo.7470054) |
+| premise v.1.4.0    | REMIND    | SSP2         | Base (RCP 6.0)<br/>NDC<br/>NPi<br/>PkBudg1150 (RCP 2.6)<br/>PkBudg500 (RCP 1.9)   | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | Link     |
