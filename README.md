@@ -29,7 +29,7 @@ You do not have to unfold all the scenario databases contained in the data packa
 
 Available data packages
 
-| Database generator | IAM model | IAM scenario | Years available | Integrations | Source database       | Url      |
-| ------------------ | --------- | ------------ | --------------- | ------------ | --------------------- |----------|
-| premise v.1.4.0    | IMAGE     | SSP2-Base    | 2005 - 2100     | electricity  | ecoinvent 3.8 cut-off | [Link](https://doi.org/10.5281/zenodo.7470054) |
-| premise v.1.4.0    | REMIND    | SSP2-Base    | 2005 - 2100     | electricity  | ecoinvent 3.8 cut-off | Link     |
+| Database generator | IAM model | IAM scenario                                | Years available | Integrations | Source database       | Url      |
+| ------------------ | --------- |---------------------------------------------| --------------- | ------------ | --------------------- |----------|
+| premise v.1.4.0    | IMAGE     | SSP2-Base<br/>SSP2-RCP 2.6<br/>SSP2-RCP 1.9 | 2005 - 2100     | electricity  | ecoinvent 3.8 cut-off | [Link](https://doi.org/10.5281/zenodo.7470054) |
+| premise v.1.4.0    | REMIND    | SSP2-Base<br/>SSP2-RCP 2.6<br/>SSP2-RCP 1.9 | 2005 - 2100     | electricity  | ecoinvent 3.8 cut-off | Link     |
