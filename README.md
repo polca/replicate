@@ -30,16 +30,16 @@ You do not have to unfold all the scenario databases contained in the data packa
 Available data packages
 -----------------------
 
-Database generator: software or script used to generate the databases
-IAM model: integrated assessment model
-IAM scenario: socio-economic scenario (SSP) - climate scenario (RCP) combination
-Years available: years for which the databases are available
-Integrations: the sectoral modifications that are applied
-Source database: the source database
-Url: url to the data package
+* Database generator: software or script used to generate the databases
+* IAM model: integrated assessment model
+* IAM scenario: socio-economic scenario (SSP) - climate scenario (RCP) combination
+* Years available: years for which the databases are available
+* Integrations: the sectoral modifications that are applied
+* Source database: the source database
+* Url: url to the data package
 
 
-| Database generator | IAM model | IAM scenario                                                                                                | Years available | Integrations | Source database       | Url      |
-| ------------------ | --------- |-------------------------------------------------------------------------------------------------------------| --------------- | ------------ | --------------------- |----------|
-| premise v.1.4.0    | IMAGE     | SSP2-Base (RCP 6.0)<br/>SSP2-RCP 2.6<br/>SSP2-RCP 1.9                                                       | 2005 - 2100     | electricity  | ecoinvent 3.8 cut-off | [Link](https://doi.org/10.5281/zenodo.7470054) |
-| premise v.1.4.0    | REMIND    | SSP2-Base (RCP 6.0)<br/>SSP2-NDC<br/>SSP2-NPi<br/>SSP2-PkBudg11500 (~RCP 2.6)<br/>SSP2-PkBudg500 (~RCP 1.9) | 2005 - 2100     | electricity  | ecoinvent 3.8 cut-off | Link     |
+| Database generator | IAM model | IAM scenario                                                                                                | Years available | Sector      | Source database       | Url      |
+| ------------------ | --------- |-------------------------------------------------------------------------------------------------------------| --------------- |-------------| --------------------- |----------|
+| premise v.1.4.0    | IMAGE     | SSP2-Base (RCP 6.0)<br/>SSP2-RCP 2.6<br/>SSP2-RCP 1.9                                                       | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | [Link](https://doi.org/10.5281/zenodo.7470054) |
+| premise v.1.4.0    | REMIND    | SSP2-Base (RCP 6.0)<br/>SSP2-NDC<br/>SSP2-NPi<br/>SSP2-PkBudg11500 (~RCP 2.6)<br/>SSP2-PkBudg500 (~RCP 1.9) | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | Link     |
