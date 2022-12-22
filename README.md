@@ -39,7 +39,7 @@ Available data packages
 * Url: url to the data package
 
 
-| Database generator | IAM model | IAM scenario                                                                                                | Years available | Sector      | Source database       | Url      |
-| ------------------ | --------- |-------------------------------------------------------------------------------------------------------------| --------------- |-------------| --------------------- |----------|
-| premise v.1.4.0    | IMAGE     | SSP2-Base (RCP 6.0)<br/>SSP2-RCP 2.6<br/>SSP2-RCP 1.9                                                       | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | [Link](https://doi.org/10.5281/zenodo.7470054) |
-| premise v.1.4.0    | REMIND    | SSP2-Base (RCP 6.0)<br/>SSP2-NDC<br/>SSP2-NPi<br/>SSP2-PkBudg11500 (~RCP 2.6)<br/>SSP2-PkBudg500 (~RCP 1.9) | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | Link     |
+| Database generator | IAM model | SSP scenario | Climate scenario                                                                     | Years available | Sector      | Source database       | Url      |
+| ------------------ | --------- |--------------|--------------------------------------------------------------------------------------|-----------------|-------------| --------------------- |----------|
+| premise v.1.4.0    | IMAGE     | SSP2         | Base (RCP 6.0)<br/>RCP 2.6<br/>RCP 1.9                                               | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | [Link](https://doi.org/10.5281/zenodo.7470054) |
+| premise v.1.4.0    | REMIND    | SSP2         | Base (RCP 6.0)<br/>NDC<br/>NPi<br/>PkBudg11500 (~RCP 2.6)<br/>PkBudg500 (~RCP 1.9)   | 2005 - 2100     | electricity | ecoinvent 3.8 cut-off | Link     |
